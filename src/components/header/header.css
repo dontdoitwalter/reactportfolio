@@ -1,0 +1,10 @@
+#header{
+    background-color:red;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    color:white;
+    text-align:center;
+    height:125px;
+}

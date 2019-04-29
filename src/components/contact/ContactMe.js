@@ -4,7 +4,7 @@ import './contact.css';
 const ContactMe = () =>{
     return(
         <div>
-            hollaaaa
+            
         </div>
     )
 }

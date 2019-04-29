@@ -25,31 +25,30 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav id='nav' className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">Projects</NavLink>
+            <NavItem>
+                <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                <NavLink href="/projects">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/contact">Contact</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Social
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>
+                  <DropdownItem href='https://www.linkedin.com/in/walter-van-hooser-81a2a116a/'>
                     LinkedIn
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
+                  <DropdownItem href='https://github.com/dontdoitwalter'>
                     GitHub
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
+                  <DropdownItem href='https://codepen.io/dontdoitwalter/'>
                     CodePen
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Instagram
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

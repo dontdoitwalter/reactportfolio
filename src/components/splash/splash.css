@@ -12,3 +12,14 @@
     width:50%;
     border-radius:50%;
 }
+.heading{
+    font-size: 32px;
+}
+.aboutmetitle{
+    padding-top:1em;
+    font-size:28px;
+}
+.aboutme{
+    font-size: 24px;
+    text-align: left;
+}

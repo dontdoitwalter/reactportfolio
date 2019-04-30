@@ -29,9 +29,9 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="/projects">Projects</NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="/contact">Contact</NavLink>
-              </NavItem>
+              </NavItem> */}
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Social

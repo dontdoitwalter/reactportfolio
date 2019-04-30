@@ -5,6 +5,7 @@ import AGILE from '../assets/agileindythumb.png'
 import SGGS from '../assets/gardenstore.png'
 import POP from '../assets/popnovel.png'
 import VIDEO from '../assets/video-player.png'
+import DIABLO from '../assets/diablo-logo.jpg'
 
 const Projects = () =>{
     return(
@@ -21,7 +22,12 @@ const Projects = () =>{
                 <div className='project-info'>
                     <p>AgileIndy Conference</p>
                     <p>Designed for Mobile</p>
-                    <p>This </p>
+                    <p>
+                        I designed and developed this application for AgileIndy's 2019 conference. It is a mobile version of 
+                        the conference speaker information, schedule and also contained maps of the conference. 
+                        You can check out it out <a href='https://agileindy-conf.herokuapp.com/' target='new'> here</a>.
+
+                    </p>
                 </div>
             </div>
             <p className='project-headings'>
@@ -32,7 +38,6 @@ const Projects = () =>{
                 of these projects was to learn, while coding. Each project took the span of about 3-5 weeks and 
                 have a different set of goals and expectations. I am slowly revisitng these projects and recreating 
                 them to be more complete. All of these projects are considered to be MVP (minimum viable product) projects.
-                You can check out the web page <a href='https://agileindy-conf.herokuapp.com/' target='new'> here</a>.
             </p>
             <div className='card-container'>
                 <img src={BREW} alt='filler' id='cardimage' />
@@ -79,7 +84,7 @@ const Projects = () =>{
                 </div>
             </div>
             <div className='card-container'>
-                <img src={VIDEO} alt='filler' id='cardimage' />
+                <img src={DIABLO} alt='filler' id='cardimage' />
                 <div className='project-info'>
                     <p>API Project</p>
                     <p>Designed for Desktop</p>
@@ -87,7 +92,7 @@ const Projects = () =>{
                         This project was our first experience pulling in data from an API to my own front end. I chose to use 
                         Blizzard's API and pulling in data from a popular game Diablo 3. The app shows a synopsis of each Act 
                         that you can read while watching the Cinematic for each act. You can check out the web page
-                        <a href='https://blizz-api-2a4df.firebaseapp.com/' target='new'> here</a>.
+                        <a href='https://dontdoitwalter.github.io/blizz-api/' target='new'> here</a>.
                     </p>
                 </div>
             </div>

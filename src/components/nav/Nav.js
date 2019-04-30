@@ -1,7 +1,6 @@
 import React from 'react';
 import './nav.css'
-import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem } from 'reactstrap';
-import logo from '../assets/player.png';
+import {Collapse,Navbar,NavbarToggler,Nav,NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu,DropdownItem } from 'reactstrap';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -21,7 +20,6 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar light expand="md">
-          <NavbarBrand href="/"><img src={logo} alt='logo' id='logo' /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav id='nav' className="ml-auto" navbar>

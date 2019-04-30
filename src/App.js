@@ -13,11 +13,11 @@ export default class App extends Component {
     <Router>
       <div className="App">
         <Nav />
-        <Switch>
-          <Route exact path='/'><Splash /></Route>
-          <Route exact path='/projects'><Projects /></Route>
-          <Route exact path='/contact'><ContactMe /></Route>
-        </Switch>
+          <Switch>
+            <Route exact path='/'><Splash /></Route>
+            <Route exact path='/projects'><Projects /></Route>
+            <Route exact path='/contact'><ContactMe /></Route>
+          </Switch>
       </div>
     </Router>
   );

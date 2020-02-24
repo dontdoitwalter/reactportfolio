@@ -1,0 +1,16 @@
+#navStyle{
+    width:100%;
+    background-color:white;
+}
+#logo{
+    height:28px;
+}
+#brand{
+    height:70px;
+    margin: 0;
+    padding: 0;
+    z-index:1
+}
+.navbar-toggler{
+background-color:lightgrey;
+}

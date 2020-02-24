@@ -1,0 +1,15 @@
+html, body{
+    background-image: url("../assets/raining.gif");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center bottom;
+}
+h1, h2, h4, h6{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}

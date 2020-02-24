@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+    <title>Walter Van Hooser's Portfolio</title>
+</head>
+<body>
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg" id="navStyle">
+        <!-- <img src="./assets/WVH/WVH.svg" class="navbar-brand" id="brand"> -->
+        <text class="navbar-brand">Walter Van Hooser</text>
+        <button style="color:black" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav" id="listStyle">
+            <li class="nav-item">
+                <a class="nav-link" id="text-color" target="new"><img title="About Me" data-toggle="modal" data-target="#modalTwo" type="click" id="logo" class="contactMeToggle" src="assets/man.png"></a>    
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="text-color" target="new" href="https://docs.google.com/document/d/1t4eC3scKYvg_zRcyD9pPn8Lm-r2TH7qgoWVe93R5JwQ/edit?usp=sharing"><img title="Resume" id="logo" src="./assets/resumeIcon.png"></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" id="text-color" target="new" href="https://linkedin.com/in/walter-van-hooser-81a2a116a/"><img title="LinkedIn" id="logo" src="./assets/linkedinlogo.png"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="text-color" target="new" href="https://github.com/dontdoitwalter"><img title="GitHub" id="logo" src="./assets/Octocat/Octocat.png"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="text-color" target="new" href="https://codepen.io/dontdoitwalter/"><img title="CodePen" id="logo" src="./assets/codepen.png"></a>
+            </li>   
+          </ul>
+        </div>
+      </nav>
+    </div>
+  <!--About Me-->   
+    <div class="container">
+      <div class="modal fade" id="modalTwo" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div style="background-color:white;" class="modal-content" id="modal-style">
+            <div class="modal-header">
+              <h4 class="modal-title">About Me</h4>
+            </div>
+            <div class="modal-body">
+              <section id="contact">
+                    <center><img title="Picture of the developer" id="selfie" src="assets/mypic.jpeg" /></center>
+                    <p id="aboutMe">
+                      Hello! My name is Walter and I am a Software Developer!
+                    </p>
+                    <p class="aboutme">
+                      I am currently working as a Applications Analyst at Community Health Network, certified in 
+                      Epic Ambulatory, Epic MyChart and EpicCare Link. I also do a lot of work customizing the look 
+                      and feel of MyChart's patient facing features. You can check out my 
+                      <a style="color:black;" href='https://www.linkedin.com/in/walter-van-hooser-81a2a116a/' target='new'><u>LinkedIn</u></a> if you 
+                      are curious about the rest of my work history.
+                    </p>
+                    <p class="aboutme">
+                      I was born and raised just north of Portland, OR in Washington State, in the city of Vancouver.
+                      Most of my childhood was spent outside, playing sports, camping, hiking, snowboarding, going to the
+                      the beach and spending time with friends and family. Growing up I was (and still am) the "IT Guy" 
+                      for my family and have always been more captivated by how and why things work, than the output. 
+                      So it was an easy transition into becoming an IT professional.
+                    </p>
+                </section>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="header">
+      <h1>Walter Van Hooser</h1>
+      <p>Software Developer</p>
+    </div>
+<!--Projects-->
+  <div id="projectsStyle">
+      <a href="https://agileindy-conf.herokuapp.com"><div class="card">
+          <img src="./assets/agileindythumb.png" alt="AgileIndy"id="cardthumb" target="new">
+            <h2 style="color:black;">AgileIndy</h2></a>
+            <h4>Confrence Application</h4>
+            <h6><i>Designed for Mobile</i></h6>
+            <p>I designed and developed this application for AgileIndy's 2019 Conference. It is a web version of the conference intenerary  that is best viewed on screen iPad and smaller.</p>
+        </div>    
+      <a href="https://brew2uclient.herokuapp.com"><div class="card">
+          <img src="./assets/brew2u.png" alt="Brew2U"id="cardthumb" target="new">
+            <h2 style="color:black;">Brew2U</h2></a>
+            <h4>MVP Project</h4>
+            <h6><i>Designed for Mobile</i></h6>
+            <p>This application was our culminating group project. We were tasked with coming up with an original idea for an application, developing that application using Angular 7, Angular Material, and NodeJS and then presenting the application to a mock business owner.</p>
+        </div>    
+        <a href="https://summitggs.herokuapp.com"><div class="card">
+        <img src="./assets/gardenstore.png" alt="Garden Store"id="cardthumb">
+          <h2 style="color:black;">24 Hour Project</h2></a>
+          <h4>MVP Project</h4>
+          <h6><i>Designed for Desktop</i></h6>
+          <p>This was the first project we did with our groups and our first real project with Angular 7. We were put in our groups and given 24 hours to create a store front in Angular that fit the clients needs.</p>
+      </div>
+    <a href="https://popnovelclient.herokuapp.com/"><div class="card">
+        <img src="./assets/popnovel.png" alt="PopNovel"id="cardthumb">
+          <h2 style="color:black;">PopNovel</h2></a>
+          <h4>MVP Project</h4>
+          <h6><i>Designed for Desktop</i></h6>
+          <p>Major project we completed to successfully complete the second phase of bootcamp. I created an original application using ReactJS with NodeJS back-end.</p>
+      </div>
+      <a href="https://blizz-api-2a4df.firebaseapp.com/"><div class="card">
+          <img src="./assets/diablo3.jpg" alt="Diablo3"id="cardthumb">
+        <h2 style="color:black;">Blizzard API</h2></a>
+        <h4>MVP Project</h4>
+        <h6><i>Designed for Desktop</i></h6>
+        <p>Major project we completed to complete the first phase of bootcamp. I created a front end application that pulled from Blizzard's API, using Vanilla JavaScript, HTML and CSS.</p>
+      </div>  
+      <a href="https://dontdoitwalter.github.io/tutorial-webpage/"><div class="card">
+          <img src="./assets/video-player.png" alt="Tutorial"id="cardthumb">
+            <h2 style="color:black;">Tutorial WebPage</h2></a>
+            <h4>MVP Project</h4>
+            <p>First front end web page we made. Using HTML and CSS we created a tutorial web page to explain some of JavaScript's basics.</p>
+        </div>  
+    </div>
+<!-- Modal -->
+<div class="container">
+    <div class="modal fade" id="modalOne" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div style="background-color:white;" class="modal-content" id="modal-style">
+          <div class="modal-header">
+            <h4 class="modal-title">Contact Me</h4>
+          </div>
+          <div class="modal-body">
+              <section id="contact">
+                  <div class="container">
+                    <div class="row">
+                      <form action="https://formspree.io/emailwaltervanhooser@gmail.com" method="POST">
+                        <div class="control-group">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Your Name"
+                              id="name"
+                              required
+                              data-validation-required-message="Please enter your name"
+                              name="name"
+                              >
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Your Email"
+                              id="email"
+                              required
+                              data-validation-required-message="Please enter your email"
+                              name="_replyto"
+                            >
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="control-group">
+                          <div class="form-group">
+                            <textarea
+                              class="form-control"
+                              rows="7"
+                              placeholder="Your Message"
+                              id="message"
+                              required
+                              data-validation-required-message="Please leave a message"
+                              name="message"
+                            ></textarea>
+                            <p class="help-block text-danger"></p>
+                          </div>
+                        </div>
+                        <div class="text-center">
+                          <div id="success"></div>
+                          <button type="submit" class="btn btn-lg btn-black">
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            Send Message
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </section>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -13,7 +13,7 @@ color:white;
 .card {
     padding-left:.25em;
     padding-right:.25em;
-    border-radius: 5px;
+    border-radius: 25px;
     height:33.5em;
     width:20em;
     margin:1em;
@@ -36,4 +36,5 @@ color:white;
   }
 #selfie{
   max-width: 35%;
+  border-radius: 25px;
 }
